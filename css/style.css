@@ -23,9 +23,8 @@ h2 {
 	font-size: 1.1em;
 }
 
-
-
 /* Layout */
+
 .ba-container{
 	padding-left: 20px;
 	padding-right: 20px;
@@ -33,18 +32,21 @@ h2 {
 }
 
 /* Typography */
+
 a,
 input[type="submit"],
 input[type="button"],
 button{
 	transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
 }
+
 input[type="submit"],
 input[type="button"],
 button,
 .ba-button{
 	display: inline-block;
 }
+
 input[type="submit"]:hover,
 input[type="button"]:hover,
 button:hover,
@@ -78,17 +80,20 @@ textarea:focus,
 select:focus {
 	outline: none;
 }
+
 textarea {
 
 /* Container */
 
 }
+
 .container {
 	width: 1060px;
 	margin: 0 auto;
 	background-color: #fff;
 	padding: 0 130px 30px 67px;
 }
+
 .container article {
 	padding-left: 67px;
 	padding-bottom: 30px;
