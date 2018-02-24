@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans:400,700|Playfair+Display:400,400i|Raleway:900');
+
+body {
+	background-color: #464f54;
+	font-family: "Playfair Display", sans-serif;
+	font-size: 26.9px;
+	line-height: 1.5em;
+}
+
+h1 {
+	font-family: 'Raleway' sans-serif;
+	font-weight: 900;
+	text-transform: uppercase;
+	color: #2a2a2a;
+	font-size: 2.8em;
+	letter-spacing: 0.05em;
+}
+
+h2 {
+	font-family: 'Playfair Display' serif;
+	font-style: italic;
+	color: #8f8f8f;
+	font-size: 1.1em;
+}
+
+
+
+/* Layout */
+.ba-container{
+	padding-left: 20px;
+	padding-right: 20px;
+	max-width: 1200px;
+}
+
+/* Typography */
+a,
+input[type="submit"],
+input[type="button"],
+button{
+	transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+}
+input[type="submit"],
+input[type="button"],
+button,
+.ba-button{
+	display: inline-block;
+}
+input[type="submit"]:hover,
+input[type="button"]:hover,
+button:hover,
+.ba-button:hover{
+
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="number"],
+input[type="tel"],
+textarea,
+select {
+		background: tranparent;
+		border: none;
+		width: 100%;
+		color: #fefefe;
+		border-bottom: 3px solid rgba(255, 255, 255, .1);
+		line-height: 2em;
+		font-size: 1.7em;
+		transition:
+		transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="password"]:focus,
+input[type="number"]:focus,
+input[type="tel"]:focus,
+textarea:focus,
+select:focus {
+	background: tranparent;
+	border: none;
+	width: 100%;
+	color: #fefefe;
+	border-bottom: 3px solid rgba(255, 255, 255, .1);
+	line-height: 2em;
+	font-size: 1.7em;
+	transition:
+}
+textarea {
+
+}
+.container {
+	width: 1060px;
+	margin: 0 auto;
+	background-color: #fff;
+	padding: 0 130px 30px 67px;
+}
+.container article {
+	padding-left: 67px;
+	padding-bottom: 30px;
+	border-left: 2px solid #e8eced;
+
+}
+.post_meta {
+	font-size: .7em;
+	color: #b4b4b4;
+	font-family: 'Noto Sants' sans-serif;
+	text-transform: uppercase;
+	letter-spacing: 0.2em;
+}
+
+.title_input {
+	background-color: #181818;
+	padding: 50
+	}
+
+.title_input label {
+	color: #76;
+	font-family: 'Noto Sants' sans-serif;
+	font-size: .55em;
+	letter-spacing: .32em;
+	display: block;
+
+}
