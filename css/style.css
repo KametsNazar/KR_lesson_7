@@ -9,11 +9,11 @@ body {
 
 h1 {
 	font-family: 'Raleway' sans-serif;
-	font-weight: 900;
+	font-weight: 700;
+	font-size: 2.8em;
 	text-transform: uppercase;
 	color: #2a2a2a;
-	font-size: 2.8em;
-	letter-spacing: 0.05em;
+		letter-spacing: 0.05em;
 }
 
 h2 {
@@ -59,15 +59,14 @@ input[type="number"],
 input[type="tel"],
 textarea,
 select {
-		background: tranparent;
-		border: none;
-		width: 100%;
-		color: #fefefe;
-		border-bottom: 3px solid rgba(255, 255, 255, .1);
-		line-height: 2em;
-		font-size: 1.7em;
-		transition:
-		transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+	background-color: transparent;
+	border: none;
+	width: 100%;
+	color: #fefefe;
+	border-bottom: 3px solid rgba(255, 255, 255, 0.1);
+	line-height: 2em;
+	font-size: 1.7em;
+	transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
 }
 
 input[type="text"]:focus,
@@ -77,16 +76,11 @@ input[type="number"]:focus,
 input[type="tel"]:focus,
 textarea:focus,
 select:focus {
-	background: tranparent;
-	border: none;
-	width: 100%;
-	color: #fefefe;
-	border-bottom: 3px solid rgba(255, 255, 255, .1);
-	line-height: 2em;
-	font-size: 1.7em;
-	transition:
+	outline: none;
 }
 textarea {
+
+/* Container */
 
 }
 .container {
@@ -102,23 +96,25 @@ textarea {
 
 }
 .post_meta {
+	font-family: 'Noto Sans', sans-serif;
 	font-size: .7em;
-	color: #b4b4b4;
-	font-family: 'Noto Sants' sans-serif;
+	color: #c9c9c9;
 	text-transform: uppercase;
 	letter-spacing: 0.2em;
 }
 
+/* title */
 .title_input {
 	background-color: #181818;
-	padding: 50
+	padding: 37px 0 37px 37px;
 	}
 
 .title_input label {
-	color: #76;
-	font-family: 'Noto Sants' sans-serif;
+	display: block;
+	font-family: 'Noto Sans', sans-serif;
 	font-size: .55em;
 	letter-spacing: .32em;
-	display: block;
+	text-transform: uppercase;
+	color: #767676;
 
 }
